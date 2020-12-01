@@ -8,7 +8,7 @@ Generated from [HYF favorite word template](https://github.com/HackYourFutureBel
 ## User Story Dependencies
 
 > How to plan your development schedule.
-- [Video] (https://hackyourfuturebe.slack.com/files/U01A31DTFSA/F01G6M8DMT3/screen-capture.webm)
+- [Video](https://hackyourfuturebe.slack.com/files/U01A31DTFSA/F01G6M8DMT3/screen-capture.webm)
 
 ---
 
