@@ -5,6 +5,13 @@ Generated from [HYF favorite word template](https://github.com/HackYourFutureBel
 - [Backlog](./project-planning/backlog.md)
 - [Development strategy](./project-planning/development-strategy.md)
 ---
+## User Story Dependencies
+
+> How to plan your development schedule.
+- [Video] (https://hackyourfuturebe.slack.com/files/U01A31DTFSA/F01G6M8DMT3/screen-capture.webm)
+
+---
+
 ### What to do
 
 - [clip on vimeo](https://vimeo.com/485101478)   
