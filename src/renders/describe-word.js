@@ -8,8 +8,8 @@ console.log('--- loading render --> ');
  * @param {string} [message='here is a word'] - used to describe the word
  * @returns {string} a rendered message describing the word
  */
-const describeWord = (word = '', message = 'here is a word') => {
-  return `${message}: "${word}"`;
+const describeWord = (word = '', message = 'your favorite word ') => {
+  return `${message} ${word}`;
 };
 
 {
