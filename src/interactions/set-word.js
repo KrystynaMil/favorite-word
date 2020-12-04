@@ -1,3 +1,4 @@
+'use strict';
 console.log('--- loading interaction -->');
 /**
  * allows a user to set a new value for the saved word.
@@ -6,17 +7,14 @@ console.log('--- loading interaction -->');
  * if the user confirms, they enter a new word that replaces the old one.
  */
 const setWord = () => {
-
-  favoriteWord = enterWord('enter your favorite word!: ');
-
-  // const confirmMessage = ' Do you want to replace your favorite word "' + favoriteWord + '" ?';
-  // let userConfirm = confirm(confirmMessage);
-  // if (userConfirm) {
-  //   favoriteWord = prompt('Enter your replaced favorite word ');
-  // }
-  if (favoriteWord === '') {
-    alert(' You do not have favorite word ');
-    return;
+  if(favoriteWord==''){
+    enterWord();
   }
-
+else if(favoriteWord!==''){
+const confirmMessage = ' do you want to replace your word "' + favoriteWord + '" ?';
+  let userConfirm = confirm(confirmMessage);
+ if (userConfirm) {
+    enterWord();
+ }
+}
 };
