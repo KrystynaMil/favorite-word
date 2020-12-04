@@ -9,10 +9,7 @@ console.log('--- loading render --> ');
  * @param {string} [description=''] - describing what changes were made
  * @returns {string} a formatted before/after message
  */
-const beforeAndAfter = (beforeValue='',afterValue='',description='') => {
-  description=describeWord(description);
-  alert(description +'\n'+'before: '+beforeValue+'\n'+'after :'+afterValue+'\n')
-};
+const beforeAndAfter = () => {};
 
 {
   const consoleLog = console.log;
