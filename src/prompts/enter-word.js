@@ -20,7 +20,7 @@ let word=''
       alert('input has spaces! try again!!')
      continue;
     }
-    let hasNumber = /\d/;
+    var hasNumber = /\d/;
 if(hasNumber.test(word)){
   alert('input has numbers! try again!!')
   continue;
@@ -35,9 +35,9 @@ const confirmMessage = 'is this correct "' + word + '"';
   favoriteWord=word;
   return word;
 };
-
+/*
 {
- /* // store I/O functions and console.log for later
+  // store I/O functions and console.log for later
 
   const consoleLog = console.log;
   const globalPrompt = prompt;
@@ -47,7 +47,7 @@ const confirmMessage = 'is this correct "' + word + '"';
   alert = () => { };
   console.log = () => { };
   // a function that simulates a user inputting a series of values
-  const mockUser = (values, index = 0) => () => values[index++];
+  /*const mockUser = (values, index = 0) => () => values[index++];
   try {
     prompt = mockUser(['yes', 'yes']);
     confirm = mockUser([false, true]);
@@ -84,6 +84,12 @@ const confirmMessage = 'is this correct "' + word + '"';
   const isNotAWord3 = wordRegex.test('12df');
 }
 */
+
+
+
+
+
+
 
 
 
