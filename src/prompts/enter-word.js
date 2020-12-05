@@ -37,7 +37,7 @@ const confirmMessage = 'is this correct "' + word + '"';
 };
 
 {
-  // store I/O functions and console.log for later
+ /* // store I/O functions and console.log for later
 
   const consoleLog = console.log;
   const globalPrompt = prompt;
