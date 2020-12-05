@@ -83,7 +83,7 @@ const confirmMessage = 'is this correct "' + word + '"';
   const isNotAWord2 = wordRegex.test('12-34');
   const isNotAWord3 = wordRegex.test('12df');
 }
-
+*/
 
 
 
